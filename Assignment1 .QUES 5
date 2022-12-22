@@ -1,0 +1,9 @@
+# Assignment 1
+# Question 5
+import math
+
+c=math. pi
+i=0
+while i<=345:
+  print (f" sin{i} = {round (math.sin(c*i/180),4)}  cos{i} = {round (math.cos(c*i/180),4)} ")
+  i+=15
