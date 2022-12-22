@@ -1,0 +1,16 @@
+#Assignment 1
+# Question 1: Calculating average of three numbers
+
+sum_=0
+
+for i in range (3) :
+ print ("u have to enter 3 numbers")
+ print (f"enter {i+1}th number ")
+ x=input ()
+ sum_+=float (x)
+
+print (f" average of three numbers = {round (sum_/3,3)}")
+
+
+
+
