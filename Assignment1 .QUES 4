@@ -1,0 +1,8 @@
+# Assignment 1
+# Question 4
+
+a = 25
+b = "25"
+c = 25.0
+ans=str (a + int(b) + int(c))
+print (ans)
