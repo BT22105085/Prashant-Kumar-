@@ -1,0 +1,9 @@
+# Assignment 1
+# QUESTION 3 
+# Calculating minutes
+
+print ("u have to enter number of seconds")
+seconds_= input ("enter number of seconds ")
+minutes = int(seconds_)//60
+new_seconds = int (seconds_) %60
+print (f" {seconds_} seconds = {minutes} minutes and  {new_seconds} seconds ")
