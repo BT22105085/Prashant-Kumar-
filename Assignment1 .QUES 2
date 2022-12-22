@@ -1,0 +1,14 @@
+#Assignment 1
+# Question 2: Calculating tax
+
+standard_deduction=10000
+additional_deduction = 3000
+gross_income = input ("enter ur gross income in dollars ")
+number_of_dependents = input ("enter number of dependents ")
+
+taxable_income = float (gross_income) - standard_deduction - int(number_of_dependents)*additional_deduction
+tax = float (taxable_income) *  (20/100)
+if tax>0 :
+ print (f"ur total tax = {tax} dollar" )
+else :
+ print ("there won't be any tax on ur income")
